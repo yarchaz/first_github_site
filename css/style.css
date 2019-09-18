@@ -1,0 +1,57 @@
+body{
+    font-size:18px;
+    font-family:'EB Garmond', serif;
+    max-width:90%;
+    max-height:900px;
+    background-color:whitesmoke;
+    color:gold;
+    margin:auto;
+}
+.homepage{
+    background-color:rgb(202, 178, 178);
+    width:80%;
+    margin:auto;
+    height:70%;
+}
+header, footer{
+    background-color:rgb(37, 112, 37);
+    text-align:center;
+}
+
+.section1{
+    height:3em; 
+}
+.section1 h2{
+    border-bottom:.20em dotted gray;
+    padding-top: .1em;
+    padding-left:.3em;
+}
+.section2{
+    height:18em;
+    margin-top:-1em;
+}
+.section2 ul{
+    font-size:20px;
+    list-style-type: none;
+    padding-top:.3em;
+}
+main img{
+    position:relative;
+    margin-top:.75em;
+    top:-4em;
+    left:1em;
+    float:right;
+    box-shadow: 1em 1em;
+    border-radius:50%;
+    
+    
+}
+footer{
+    height:40px;
+}
+footer p{
+    padding-top:10px;
+}
+#fulldate{
+    color:red;
+}
