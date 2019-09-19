@@ -2,7 +2,7 @@
     box-sizing:border-box;
 }
 body{
-    font-size:1.2em;
+    font-size:1.2vw;
     font-family:'EB Garmond', serif;
     max-width:90%;
     height:56.4em;
@@ -13,8 +13,8 @@ body{
 .homepage{
     background-color:rgb(202, 178, 178);
     width:80%;
+    min-height:20%;
     margin:auto;
-    height:auto;
     
 }
 header, footer{
@@ -41,15 +41,16 @@ header, footer{
     padding-top:.3em;
 }
 main img{
-    max-width: 100%;
-    height:auto;
-    margin-top:.75em;
-    top:-4em;
-    left:1em;
-    float:right;   
+    max-width:30%;
+    position:relative;
+    float: right;
+    left:.8em;
+    border-radius:50%;
+    box-shadow:.1em .65em black;   
 }
 footer{
     height:2.8em;
+    margin-top:2em;
 }
 footer p{
     padding-top:.8em;
