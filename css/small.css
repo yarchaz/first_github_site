@@ -1,7 +1,7 @@
 
 body{
     font-size:1.2vw;
-    font-family:'EB Garmond', serif;
+    font-family:serif;
     max-width:90%;
     height:56.4em;
     background-color:whitesmoke;
@@ -10,41 +10,38 @@ body{
 }
 .homepage{
     background-color:rgb(202, 178, 178);
-    width:80%;
+    width:50%;
     min-height:20%;
     margin:auto;
     
+}
+h1,h2{
+    font-family: 'EB Garamond',serif;
 }
 header, footer{
     background-color:rgb(37, 112, 37);
     text-align:center;
 }
 
-.section1{
-    height:3em; 
-    overflow:hidden;
+.section{
+    height:13em; 
 }
-.section1 h2{
+.section h2{
     border-bottom:.20em dotted gray;
     padding-top: .1em;
-    padding-left:.3em;
+    padding-left:.6em;
+    padding-bottom:.2em;
 }
-.section2{
-    height:18em;
-    margin-top:-1em;
-}
-.section2 ul{
-    font-size:1.5em;
+
+.section ul{
+    font-size:1em;
     list-style-type: none;
     padding-top:.3em;
+
 }
 main img{
-    max-width:30%;
-    position:relative;
-    float: right;
-    left:.8em;
-    border-radius:50%;
-    box-shadow:.1em .65em black;   
+    max-width:30%; 
+    margin-left:1em;
 }
 footer{
     height:2.8em;

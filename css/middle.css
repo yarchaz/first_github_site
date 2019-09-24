@@ -1,0 +1,12 @@
+@media (min-width:32.5em){
+    main img{
+        float: right;
+        position:relative;
+        left:.8em;
+        border-radius:50%;
+        box-shadow:.1em .65em black; 
+    }
+}
+
+     
+
