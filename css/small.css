@@ -29,6 +29,7 @@ header, footer{
 .section h2{
     border-bottom:.20em dotted gray;
     padding-top: .1em;
+    line-height:.3em;
     padding-left:.6em;
     padding-bottom:.2em;
 }
