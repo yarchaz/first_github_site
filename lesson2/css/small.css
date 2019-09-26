@@ -1,0 +1,69 @@
+body{
+    font-family: "Arapey", serif; 
+    font-size: 2.2vw;
+}
+.gridarea{
+    display: grid;
+    grid-gap: .5em;
+    max-width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+header, nav, main, footer{
+    border: 1px solid #333;
+    box-shadow:0 0 10px #000;
+}
+header {
+    background-color:rgb(37, 112, 37);
+    display:grid;
+    grid-template-columns: 250px 1fr;
+    padding: .5em;
+    grid-area: header;
+    justify-content: left;
+    text-align:center;
+}
+h1, h2{
+    font-family: "alfa Slab one", cursive;
+    font-size: 1rem;
+    color:black;
+}
+main{
+    display:grid;
+    background-color:rgb(202, 178, 178);
+    grid-template-columns: 1fr;
+    grid-gap: .4em;
+    padding: .4em;
+    grid-area: main;
+    margin-bottom:.5em;
+}
+main section a{
+    display:block;
+    padding-bottom: 1em;
+
+}
+main section{
+    padding-left:.5em;
+}
+#company{
+    color:rgb(49, 4, 4);
+}
+div p {
+    margin-bottom:-.3em;
+}
+div img {
+    max-width:30%;
+    position:relative;
+}
+footer{
+    background-color:rgb(37, 112, 37);
+    color:gold;
+    padding: .5em;
+    font-size: smaller;
+    grid-area:footer;
+    text-align:center;
+}
