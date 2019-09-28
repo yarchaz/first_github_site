@@ -27,6 +27,9 @@ header {
     justify-content: left;
     text-align:center;
 }
+nav {
+    padding-left:.5em;
+}
 h1, h2{
     font-family: "alfa Slab one", cursive;
     font-size: 1rem;
