@@ -80,7 +80,7 @@ nav ul li a:hover{
 main{
     padding:.3em;
 }
-main h1{
+.cityName{
     text-align:center;
 }
 section{
@@ -159,3 +159,4 @@ footer{
     color:#d37e00;
     text-align:center;
 }
+
