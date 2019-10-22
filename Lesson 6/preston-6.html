@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="discription" content="Prston Idaho weather and info">
+        <title>Preston | The Sky Outside</title>
+        <link rel="icon" href="../Images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script src="js/navagation.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="prestonPancake">
+            <p>Saturday= Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <header>
+            <img src="images/Weather_Icon.png" alt="The Sky OutSide Logo">
+            <section class="head">
+            <h2>The Sky Outside</h2>
+            <p>Keeping You Ahead of the Weather.</p>
+            </section>
+        </header>
+        <nav >
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="mainNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="cityName">Preston Idaho</h2>
+            <!--Hero image and weather Summary-->
+            <section class="sec1">
+                <img src="images/Idaho_here_image.jpeg" alt="Local Hero image">
+                <div>
+                    <h2>Weather Summary</h2>
+                    <p>Condition: Sunny</p>
+                    <p>temperature: 67 &#8457;</p>
+                    <p>Humitity: 50%</p>
+                    <p>Pollon Count: 30</p>
+                </div>
+            </section>
+            <!--5 Day forcast. hidden in small view-->
+            <section class="sec2">
+                <div>
+                    <h3>Wednesday</h3>
+                    <img src="images/Sunny_weather_icon.png" alt="weather condition picture">
+                    <p>65&#8457;</p>
+                </div>
+                <div class="border">
+                    <h3>Thursday</h3>
+                    <img src="images/Sunny_weather_icon.png" alt="weather condition picture">
+                    <p>65&#8457;</p>
+                </div>
+                <div class="border">
+                    <h3>Friday</h3>
+                    <img src="images/partlyCloudy_weather_icon.png" alt="weather condition picture">
+                    <p>60&#8457;</p>
+                </div>
+                <div class="border">
+                    <h3>Saturday</h3>
+                    <img src="images/Rain_weather_icon.png" alt="weather condition picture">
+                    <p>58&#8457;</p>
+                </div>
+                <div class="border">
+                    <h3>Sunday</h3>
+                    <img src="images/Sunny_weather_icon.png" alt="weather condition picture">
+                    <p>65&#8457;</p>
+                </div> 
+            </section>
+            <!--Artical section. image floats right in medium and large view-->
+            <section class="sec3">
+                <h2>Article</h2>
+                <img src="images/artical_image.jpeg" alt="frends at a park">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas fringilla phasellus faucibus scelerisque
+                eleifend donec pretium. Viverra tellus in hac habitasse platea dictumst vestibulum. Eget duis at tellus at urna condimentum mattis pellentesque id. Cum sociis natoque penatibus
+                et magnis dis parturient. At ultrices mi tempus imperdiet nulla malesuada. Sollicitudin ac orci phasellus egestas tellus. Interdum varius sit amet mattis vulputate enim nulla aliquet.
+                Lectus nulla at volutpat diam ut. Purus sit amet luctus venenatis lectus magna. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Diam sit amet nisl suscipit
+                adipiscing bibendum est. Enim sed faucibus turpis in eu mi. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Orci phasellus egestas tellus rutrum. Sem integer vitae justo
+                eget magna fermentum iaculis eu. Nunc eget lorem dolor sed viverra ipsum nunc. Suspendisse interdum consectetur libero id. Massa ultricies mi quis hendrerit dolor. Tempus imperdiet nulla malesuada
+                pellentesque elit.</p>
+                <p>At auctor urna nunc id cursus metus aliquam. Lacus sed viverra tellus in hac habitasse platea. Euismod elementum nisi quis eleifend quam adipiscing. Aliquam eleifend mi in nulla posuere sollicitudin
+                aliquam. Placerat vestibulum lectus mauris ultrices eros. Sed faucibus turpis in eu mi bibendum neque. Sed sed risus pretium quam. Fames ac turpis egestas maecenas pharetra convallis posuere. Viverra nam
+                libero justo laoreet sit. Quisque id diam vel quam. </p>
+            </section>
+            <!--Contact info section. map image hidden in small view content flexes in medium and large view-->
+            <section class="sec4">
+                <div class="contact">
+                    <div class="contactInfo">
+                    <h2>Contact Info</h2>
+                    <p>4563 E. 1010 W. Preston, Idaho 83263</p>
+                    <p>&#9743; (208) 975_6735</p>
+                    <p>&#9993; tso@gmail.com</p>
+                    <a href="#"><img src="images/faceBook_icon.png" alt="Facebook icon "></a>
+                    <a href="#"><img src="images/twitter_icon.png" alt="Twitter icon"></a>
+                    </div>
+                    <div class="map">
+                        <img src="images/map_image.jpeg" alt="Idaho Map">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <p>&copy; 2019 | The Sky Outside | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online
+                Learning Home</a></p>
+            <div id="cDate"></div>
+            
+        </footer>
+        <script src="js/current_date.js"></script>
+        <script src="js/saturday_pancakes.js"></script>
+    </body>
+</html>
