@@ -41,13 +41,43 @@
             <h2 class="cityName">Preston Idaho</h2>
             <!--Hero image and weather Summary-->
             <section class="sec1">
-                <img src="images/Idaho_here_image.jpeg" alt="Local Hero image">
+                <picture>
+                <img src="images/hero_broke.jpg" alt= "Local Hero image" sizes="100vw"
+                srcset="images/hero_small.jpg 650w,
+                        images/hero_medium.jpg 1000w,
+                        images/hero_large.jpg 1300w">
+               
+                </picture>
                 <div>
                     <h2>Weather Summary</h2>
-                    <p>Condition: Sunny</p>
+                    <table>
+                        <tr>
+                            <td>Currently:</td>
+                            <td>Sunny</td>
+
+                        </tr>
+                        <tr>
+                            <td>Temperature:</td>
+                            <td><span id="cTemp">49</span> &#8457;</td>
+                        </tr>
+                        <tr>
+                                <td>Wind Chill:</td>
+                                <td><span id="cWindC"></span> &#8457;</td>
+                            </tr>
+                        <tr>
+                            <td>Wind Speed:</td>
+                            <td><span id="cWindS">5</span> mph</td>
+                        </tr>
+                        <tr>
+                            <td>Hummidity:</td>
+                            <td>50%</td>
+                        </tr>
+                    </table> 
+                    <!-- <p>Condition: Sunny</p>
                     <p>temperature: 67 &#8457;</p>
                     <p>Humitity: 50%</p>
-                    <p>Pollon Count: 30</p>
+                    <p>Pollon Count: 30</p>-->
+                    
                 </div>
             </section>
             <!--5 Day forcast. hidden in small view-->
@@ -118,5 +148,14 @@
         </footer>
         <script src="js/current_date.js"></script>
         <script src="js/saturday_pancakes.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/windchill.js"></script>
+    <script>
+        WebFont.load({
+            google:{
+                families: ['Merriweather','Oswald']
+            }
+        });
+    </script>
     </body>
 </html>
