@@ -89,12 +89,16 @@ form legend{
 }
 form label{
     display:block;
-    margin:0 0 .9rem 0;
-    
-    
+    margin:0 0 .9rem 0;    
 }
 form label.top{
     display:block;
+}
+form label.top input:required{
+    border-left:red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
 }
 form label.top input, form label.top select{
     display:block;
@@ -111,6 +115,9 @@ form input.submitBtn {
     padding:.75rem 1.5rem;
     margin:1rem 0 1rem 2%;
 
+}
+section{
+    text-align:center
 }
 footer{
     background-color:black;
