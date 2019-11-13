@@ -1,0 +1,13 @@
+@media only screen and (min-width:40em){
+    main .cards {
+        grid-template-columns: auto auto;
+        grid-column-gap: .3em;
+    }
+    main section img{
+        width:100%;
+        max-width:15em;
+        margin:.7em auto .5em auto;
+        box-shadow: 4px 7px 10px black;
+    }
+    
+}
