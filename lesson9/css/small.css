@@ -99,7 +99,9 @@ div.cards section p{
     margin:.5em;
     font-size:.9em;
 }
-
+div.cards section img{
+    max-width:90%;
+}
 .artical{
     background-color:#7f9cc44b;
     padding-left:.3em;
