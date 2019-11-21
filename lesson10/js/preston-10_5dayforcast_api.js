@@ -1,4 +1,4 @@
-const apiURLF = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b2012ab1c1fd703c93375ed8b42602ef";
+const apiURLF = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b2012ab1c1fd703c93375ed8b42602ef";
 fetch(apiURLF)
     .then((response) => response.json())
     .then((jsObject) => {
