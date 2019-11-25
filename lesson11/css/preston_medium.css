@@ -62,6 +62,7 @@
         display:block;
         margin:auto 0;
         width:50%;
+        border:5px solid black;
     }
     footer{
         font-size:2vw;
