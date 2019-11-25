@@ -117,6 +117,12 @@ section img{
 }
 .sec2{
     display:none;
+}
+section.upandComing{
+    text-align:center;
+    border:2px solid rgba(0, 0, 0, 0.397);
+    margin-top:1em;
+
 } 
 .sec3{
     border:2px solid rgba(0, 0, 0, 0.397);
@@ -143,7 +149,9 @@ section img{
 }
 h1,h2,h3,h4,h5,h6{
     color:#d37e00;
-    
+    text-align:center;
+    margin-bottom:0;
+    padding-bottom:0;
 }
 main p{
     color:black;
