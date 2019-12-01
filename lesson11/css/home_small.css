@@ -67,6 +67,10 @@ nav ul li a:hover{
 main{
     padding:0em;
 } 
+main p{
+    color:black;
+    font-family:"Oswald", sans-serif;
+}
 main #herro picture img{
     width:100%;
     margin:.5em 0 .7em 0;
@@ -126,6 +130,10 @@ main section.articals #articalimage2{
     max-width:70%;
     margin:0 .3em 0 0;
 }
+main section.articals a{
+    text-decoration:none;
+    color:#4b80ca;
+}
 #a2{
     display:none;
 }
@@ -138,5 +146,9 @@ footer{
     text-align:center;
     margin-top:.4em;
     clear:both;
+}
+footer a {
+    text-decoration:none;
+    color:#4b80ca;
 }
 

@@ -8,7 +8,7 @@
     }
     
     main #herro picture img{
-        max-height:30em;
+        height:15em;
         width:100%;  
     }
     div.cards{
@@ -44,8 +44,7 @@
      footer{
         max-width: 80%;
         margin:4em auto;
-    }
-    footer{
         font-size:1.3vw;
     }
+    
 }

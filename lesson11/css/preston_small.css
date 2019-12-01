@@ -45,7 +45,7 @@ header{
 }
 
 nav{
-    background-color:#7f9cc4;
+    background-color:#7f9cc3;
     text-align:center;
 }
 nav button{
@@ -127,9 +127,15 @@ section.upandComing{
 .sec3{
     border:2px solid rgba(0, 0, 0, 0.397);
     margin-top:1em;
+    text-align:center;
 }
 .sec3 p{
     padding:0;
+    text-align:left;
+}
+.sec3 p a {
+    text-decoration:none;
+    color:#4b80ca;
 }
 .sec4{
     border:2px solid rgba(0, 0, 0, 0.397);
@@ -166,5 +172,9 @@ footer{
     padding:.3em;
     color:#d37e00;
     text-align:center;
+}
+footer a {
+    text-decoration:none;
+    color:#4b80ca;
 }
 

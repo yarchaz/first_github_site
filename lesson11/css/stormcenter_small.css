@@ -126,4 +126,8 @@ footer{
     color:#d37e00;
     text-align:center;
 }
+footer a {
+    text-decoration:none;
+    color:#4b80ca;
+}
 
