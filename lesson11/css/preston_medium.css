@@ -63,6 +63,9 @@
         margin:auto 0;
         border:5px solid black;
     }
+    .sec4 .map img{
+        margin-top:0;
+    }
     footer{
         font-size:2vw;
     }
