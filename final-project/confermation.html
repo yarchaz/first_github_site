@@ -6,25 +6,29 @@
         <meta name="discription" contnent="Temple Inn and Suites Temple Information ">
         <title>Temple</title>
         <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/home_small.css">
         <script src="js/navigation.js"></script>
     </head>
     <body>
-        <header>
-            <picture>
-                <img src="#" alt="#">
-            </picture>
-            <h1>The Temple Inn and Suites</h1>
-        </header>
-        <nav>
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="Temple.html">Temple</a> </li>
-                <li class="active"><a href="services.html">Service</a> </li>
-                <li><a href="reservation.html">Reservation</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
-            </ul>
-        </nav>
+            <header>
+                    <div class="head">
+                    <picture>
+                        <img src="images/logo_100.jpg" alt="Temple in and Suites Logo">
+                    </picture>
+                    <button id="navB" onclick="toggleMenu()">&#9776;</button>
+                   </div>
+                   <h1>The Temple Inn and Suites</h1>
+                   
+                </header>
+                <nav>
+                        <ul id="nav" class="hide">
+                            <li ><a href="index.html">Home</a> </li>
+                            <li><a href="Temple.html">Temple</a> </li>
+                            <li><a href="services.html">Service</a> </li>
+                            <li><a href="reservation.html">Reservation</a> </li>
+                            <li><a href="contact.html">Contact</a> </li>
+                        </ul>
+                    </nav>
         <main>
             <section class="form">
                 <h2>Thank you for your Reservation</h2>
@@ -33,11 +37,16 @@
             </section>
         </main>
         <footer>
-            <p>&copy; 2019 | The Temple Inn and Suites</p>
-            <a href="Temple.html">Temple</a> |
-            <a href="services.html">Service</a> |
-            <a href="reservation.html">Reservation</a> |
-            <a href="contact.html">Contact</a>
-        </footer>
+                <p>&copy; 2019 | The Temple Inn and Suites</p>
+                <div>
+                    <a href="index.html" >Home</a> |
+                    <a href="Temple.html">Temple</a> |
+                    <a href="services.html">Service</a> |
+                    <a href="reservation.html">Reservation</a> |
+                    <a href="contact.html">Contact</a>
+                </div>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webfont.js"></script>
     </body>
 </html>

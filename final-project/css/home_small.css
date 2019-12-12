@@ -1,3 +1,141 @@
+/*--- General ---*/
+html{
+    font-size:4vw;
+    font-family:"Archivo Narrow", sans-serif;
+}
+body {
+    padding:0;
+    margin:0;
+    background-color:#fdffd3;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"pacifico",fantasy;
+    color:#d68813;
+    margin: 0 0 0 2%;
+   
+}
+/*--- Head section ---*/
+header{
+    background: linear-gradient(0deg, rgba(102,102,102,1) 55%, rgba(255,255,255,1) 100%);
+      
+}
+.head{
+    display:flex;
+    justify-content:space-between;  
+}
+.head picture{
+    margin:.5rem 0 0 2%;
+}
+.head picture img{
+    border-radius:100%;
+}
+.head button{
+    font-size:2rem;
+    border:none;
+    background:none;
+    margin-right:.5rem;
+}
+header h1{
+    font-size:2rem;
+    margin: 0 0 0 2%;
+    padding-bottom: .5rem;
+}
+/*--- Navigaion section ---*/
 .hide{
     display:none;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:#666666;
+    
+}
+nav ul li{
+    margin-bottom:.1rem;
+    
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color:#d68813;
+    display:block;
+    padding: .8rem;
+    width:92%;
+    margin:0 auto;
+    font-size:1.8rem;   
+}
+nav ul li.active a{
+    color:#ff1919;
+    background-color:#0000008f;
+    border-radius:1em 1em 1em 1em;
+}
+nav ul li a:hover{
+    color:#ff1919;
+    background-color:#00000056;
+    border-radius:1em 1em 1em 1em;
+}
+/*--- Main Section ---*/
+main {
+    margin: 0 auto;
+}
+#sec1 h2{
+    margin-top:1rem;
+    margin-bottom:-1rem;
+}
+#sec1 picture img{
+    float:right;
+    max-width:100%;
+    width:60%;
+    box-shadow:4px 5px 5px black;
+    margin-right: 1rem;
+    margin-top:1.3rem;
+}
+#sec1 p, #sec2 p{
+    font-size:1rem;
+    padding:0 .3rem 0 .3rem;
+}
+#sec3 div{
+    margin-bottom:3rem;
+    text-align:center;
+}
+
+#sec3 figure img[data-src]{
+    filter:blur(0.2em);
+}
+#sec3 figure img{
+    filter:blure(0em);
+    transition:filter 0.4s;
+    box-shadow: 4px 5px 2px black;
+}
+#sec3 figure:hover{
+    transform:scale(1.15);
+}
+figure figcaption{
+    text-align:center;
+    font-size:.8rem;
+}
+/*--- Footer Section ---*/
+footer{
+    background: linear-gradient(0deg, rgba(102,102,102,1) 55%, rgba(255,255,255,1) 100%);
+    padding-left:2%;
+}
+footer p{
+    padding-top:.5rem;
+}
+footer div{
+    padding-bottom:1rem;
+}
+footer a{
+    text-decoration: none;
+    color:#d68813;
+}
+footer a.act{
+    text-decoration:underline;
+    text-decoration-color:#d68813;
+    background-color:#0000008f;
+}
+footer a:visited{
+    color:#ff1919;
 }
