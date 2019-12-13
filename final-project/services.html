@@ -6,46 +6,53 @@
         <meta name="discription" contnent="Temple Inn and Suites Home ">
         <title>Home</title>
         <link rel="icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="css/home_small.css">
+        <link rel="stylesheet" href="css/services/small.css">
+        <link rel="stylesheet" href="css/services/medium.css">
+        <link rel="stylesheet" href="css/services/large.css">
         <script src="js/navigation.js"></script>
     </head>
     <body>
-            <header>
-                    <div class="head">
-                    <picture>
-                        <img src="images/logo_100.jpg" alt="Temple in and Suites Logo">
-                    </picture>
-                    <button id="navB" onclick="toggleMenu()">&#9776;</button>
-                   </div>
-                   <h1>The Temple Inn and Suites</h1>
-                   
-                </header>
-                <nav>
-                        <ul id="nav" class="hide">
-                            <li ><a href="index.html">Home</a> </li>
-                            <li><a href="Temple.html">Temple</a> </li>
-                            <li class="active"><a href="services.html">Service</a> </li>
-                            <li><a href="reservation.html">Reservation</a> </li>
-                            <li><a href="contact.html">Contact</a> </li>
-                        </ul>
-                    </nav>
+        <header>
+            <div class="head">
+            <picture>
+                <img src="images/logo_100.jpg" alt="Temple in and Suites Logo">
+            </picture>
+            <button id="navB" onclick="toggleMenu()">&#9776;</button>
+           </div>
+           <h1>The Temple Inn and Suites</h1>
+           
+        </header>
+        <nav>
+                <ul id="nav" class="hide">
+                    <li class="active"><a href="index.html">Home</a> </li>
+                    <li><a href="temple.html">Temple</a> </li>
+                    <li><a href="services.html">Service</a> </li>
+                    <li><a href="reservation.html">Reservation</a> </li>
+                    <li><a href="contact.html">Contact</a> </li>
+                </ul>
+            </nav>
         <main>
-            <section id="sec1">
-                <h2>Section 1</h2>
-                <picture>
-                    <img src="images/abq_temple.gif" alt="Albuquerque Tmeple Image">
-                </picture>
-                <p>Paragraph Here</p>
-            </section>
-            <section id="sec2">
-                <h2>section 2</h2>
-                <p>Call to action</p>
-            </section>
+            <div id="mainContent">
+                <section id="sec1">
+                    <h2>Section 1</h2>
+                    <picture>
+                        <img src="images/abq_temple.gif" alt="Albuquerque Tmeple Image">
+                    </picture>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra metus at metus finibus tincidunt. Cras tempor rutrum purus sed mollis. Suspendisse potenti. Pellentesque congue ut enim eget ultricies. Pellentesque pellentesque urna vitae dui cursus, et congue ante elementum. Phasellus tristique libero justo, eu feugiat nisi dictum imperdiet. Ut eleifend tempus ex, id bibendum tortor aliquet eget. Aenean et diam id tortor consequat dignissim. Aenean neque felis, cursus vel nisl ut, sagittis rhoncus neque.
+
+                            Ut dictum sed orci nec tempus. Proin commodo feugiat velit, sed sagittis magna ultrices at. Integer lacinia, velit vel varius efficitur, sem velit dapibus lorem, aliquam fringilla turpis lacus sed mauris. Proin diam nibh, viverra sollicitudin pharetra euismod, consectetur at arcu. Cras vestibulum mauris erat, non aliquet ipsum consectetur quis. Vivamus ultricies porttitor leo in placerat. Donec pharetra rutrum lectus vitae ultrices. Nullam iaculis lobortis purus, faucibus mattis orci auctor vitae. Ut ultricies eros in ipsum pellentesque, eget vulputate metus lobortis. Phasellus interdum orci nibh, a feugiat ipsum ultrices id. Integer ac elementum leo. Aliquam eu dui nec mauris luctus egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse commodo enim nisl, at imperdiet felis vestibulum vitae. Nullam consequat, ligula ac aliquam volutpat, ipsum dui gravida dolor, tristique convallis lectus leo nec justo.</p>
+                </section>
+                <section id="sec2">
+                    <h2>section 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra metus at metus finibus tincidunt. Cras tempor rutrum purus sed mollis. Suspendisse potenti. Pellentesque congue ut enim eget ultricies. Pellentesque pellentesque urna vitae dui cursus, et congue ante elementum. Phasellus tristique libero justo, eu feugiat nisi dictum imperdiet. Ut eleifend tempus ex, id bibendum tortor aliquet eget. Aenean et diam id tortor consequat dignissim. Aenean neque felis, cursus vel nisl ut, sagittis rhoncus neque.</p>
+                </section>
+            </div>
+            <h2>Section 3</h2>
             <seciton id="sec3">
-                <h2>Section 3</h2>
+               
                 <div>
                     <figure>
-                        <img src="images/placeholder-image.jpg" data-src="images/stg_temple.gif" alt="St. George Temple">
+                       <img src="images/placeholder-image.jpg" data-src="images/stg_temple.gif" alt="St. George Temple">
                         <figcaption>St. George Utah Temple </figcaption>
                     </figure>
                 </div>
@@ -79,18 +86,19 @@
                         <figcaption>Sandiago California Temple</figcaption>
                     </figure>
                 </div>
+               
             </seciton>
         </main>
         <footer>
-                <p>&copy; 2019 | The Temple Inn and Suites</p>
-                <div>
-                    <a href="index.html">Home</a> |
-                    <a href="Temple.html">Temple</a> |
-                    <a href="services.html" class="act">Service</a> |
-                    <a href="reservation.html">Reservation</a> |
-                    <a href="contact.html">Contact</a>
-                </div>
-            </footer>
+            <p>&copy; 2019 | The Temple Inn and Suites</p>
+            <div>
+                <a href="index.html" class="act">Home</a> |
+                <a href="Temple.html">Temple</a> |
+                <a href="services.html">Service</a> |
+                <a href="reservation.html">Reservation</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+        </footer>
         <script src="js/lazy.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/webfont.js"></script>

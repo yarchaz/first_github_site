@@ -1,0 +1,37 @@
+@media only screen and (min-width:65em){
+    html{
+        font-size:1.5vw;
+    }
+    header h1{
+        position:relative;
+        font-size:2rem;
+        text-align:center;
+        top:-5rem;
+        text-shadow:2px 2px  black;     
+    }
+    .hide{
+        top:-5rem;
+    }
+    #sec1 p,#sec2 p{
+        font-size:1rem;
+    }
+    main{
+        position:relative;
+    }
+    #mainContent{
+        display:grid;
+        grid-template-columns:2fr 1fr;
+    }
+    #sec2{
+        margin-right:2%;
+        border:2px solid black;
+        height:60%;
+    }
+    #sec3 {
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+    footer{
+        font-size:1rem;
+    }
+}

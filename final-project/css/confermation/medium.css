@@ -1,0 +1,58 @@
+@media only screen and (min-width: 43em){
+    html{
+        font-size:2vw;
+    }
+    header h1{
+        
+        font-size:1.8rem;    
+    }
+    .head button{
+        display:none;
+    }
+    .hide{
+        position:relative;
+        top:-7.4rem;
+        left:10rem;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    /*--- navigation ---*/
+    nav ul{
+        width:70%;
+        background-color:transparent;
+        
+    }
+    nav ul li a{
+        margin-right:1rem;
+        font-size:1.5rem; 
+        width:70%;
+        text-align:center;  
+    }
+    #sec1{
+        text-align:center;
+    }
+    #sec1 picture img{
+        float:none;
+        width:80%;
+        max-height:20em;   
+    }
+    #sec1 p, #sec2 p{
+        text-align:left;
+        margin: 1rem 3% 0 3%;
+        font-size:1.5rem;
+    }
+    #sec3 {
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    
+    #sec3 figure img{
+        max-width:100%;
+        width:100%;
+        max-height:10rem;
+    }
+    footer{
+        font-size:1.8rem;
+    }
+}

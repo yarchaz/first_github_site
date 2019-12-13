@@ -1,0 +1,44 @@
+@media only screen and (min-width: 43em){
+    html{
+        font-size:2vw;
+    }
+    header h1{
+        font-size:1.8rem;    
+    }
+    .head button{
+        display:none;
+    }
+    .hide{
+        position:relative;
+        top:-7.4rem;
+        left:10rem;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    /*--- navigation ---*/
+    nav{
+        margin-bottom:-3rem;
+    }
+    nav ul{
+        width:70%;
+        background-color:transparent;
+        
+    }
+    nav ul li a{
+        margin-right:1rem;
+        font-size:1.5rem; 
+        width:70%;
+        text-align:center;  
+    }
+    .contact{
+        margin-top:-0rem;
+    }
+    .contact div{
+        width:80%;
+        margin:0 auto;
+    }
+    footer{
+        font-size:1.8rem;
+    }
+}

@@ -11,13 +11,13 @@ body {
 h1,h2,h3,h4,h5,h6{
     font-family:"pacifico",fantasy;
     color:#d68813;
-    margin: 0 0 0 2%;
+   text-align:center;
    
 }
 /*--- Head section ---*/
 header{
     background: linear-gradient(0deg, rgba(102,102,102,1) 55%, rgba(255,255,255,1) 100%);
-      
+     width:100% 
 }
 .head{
     display:flex;
@@ -36,6 +36,7 @@ header{
     margin-right:.5rem;
 }
 header h1{
+    text-align:left;
     font-size:2rem;
     margin: 0 0 0 2%;
     padding-bottom: .5rem;
