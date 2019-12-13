@@ -12,24 +12,12 @@
     .hide{
         top:-5rem;
     }
-    #sec1 p,#sec2 p{
+    form fieldset label input{
+        height:default;
+        width:default;
+    }
+    .sButton{
         font-size:1rem;
-    }
-    main{
-        position:relative;
-    }
-    #mainContent{
-        display:grid;
-        grid-template-columns:2fr 1fr;
-    }
-    #sec2{
-        margin-right:2%;
-        border:2px solid black;
-        height:60%;
-    }
-    #sec3 {
-        display:grid;
-        grid-template-columns: auto auto auto;
     }
     footer{
         font-size:1rem;

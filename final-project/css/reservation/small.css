@@ -11,8 +11,7 @@ body {
 h1,h2,h3,h4,h5,h6{
     font-family:"pacifico",fantasy;
     color:#d68813;
-   text-align:center;
-   
+   text-align:center; 
 }
 /*--- Head section ---*/
 header{
@@ -78,44 +77,46 @@ nav ul li a:hover{
     border-radius:1em 1em 1em 1em;
 }
 /*--- Main Section ---*/
-main {
-    margin: 0 auto;
+form{
+    margin:0 auto;
+    width: 100%;
+    max-width:40rem;
 }
-#sec1 h2{
-    margin-top:1rem;
-    margin-bottom:-1rem;
+form fieldset{
+    border-color:#ff191985;
+    border-width:2px;
+    margin:0 2% 0 2%
 }
-#sec1 picture img{
-    float:right;
-    max-width:100%;
-    width:60%;
-    box-shadow:4px 5px 5px black;
-    margin-right: 1rem;
-    margin-top:1.3rem;
+form fieldset legend{
+    color:#d68813;
+    padding:.5rem;
+    font-size:1.4rem;
 }
-#sec1 p, #sec2 p{
-    font-size:1rem;
-    padding:0 .3rem 0 .3rem;
+form fieldset label{
+    display:block;
+    margin-bottom:1rem;
 }
-#sec3 div{
-    margin-bottom:3rem;
-    text-align:center;
+form fieldset label input{
+    display:block;
+    height:2rem;
+    width:10rem;
 }
-
-#sec3 figure img[data-src]{
-    filter:blur(0.2em);
+form fieldset label input:required{
+    border-left:#ff1919 solid 6px;
 }
-#sec3 figure img{
-    filter:blure(0em);
-    transition:filter 0.4s;
-    box-shadow: 4px 5px 2px black;
+form fieldset label input:required:valid{
+    border-left:none;  
 }
-#sec3 figure:hover{
-    transform:scale(1.15);
+.sButton{
+    margin:2rem 0 2rem .5rem;
+    border:none;
+    font-size:1.5rem;
+    background-color:#666666;
+    color:#d68813;
+    border-radius:10px;
 }
-figure figcaption{
-    text-align:center;
-    font-size:.8rem;
+.sButton:hover{
+    color:#ff1919;
 }
 /*--- Footer Section ---*/
 footer{

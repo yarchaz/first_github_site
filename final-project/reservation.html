@@ -38,15 +38,32 @@
                 <fieldset>
                     <legend>Personal Info</legend>
                     <!--Full Name, Email, Phone #, Home state or Country-->
+                    <label>Full Name<input type="text" pattern ="(\w\w+)\s(\w+)$" placeholder="First and Last name" required> </label>
+                    <label>Email<input type="email" placeholder="someone@gmail.com"></label>
+                    <label>Phone Number<input type="tel" required></label>
+                    <label>State/Country<input type="text" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Reservation Info</legend>
                     <!--Location, Date, Number and Type of Rooms-->
+                    <label>Location<input list="locations" name="locations"></label>
+                    <datalist id="locations">
+                        <option>Albuquerquer, NM</option>
+                        <option>Los Angeles, CA</option>
+                        <option>San Dieago, CA</option>
+                        <option>St.George, UT</option>
+                        <option>Manti, Ut</option>
+                    </datalist>
+                    <label>Date for Reservation<input type="date" name="rezDate"></label>
+                    <label>Number in Party<input type="number" name="numberinP"></label>
+                    <label>Number of Rooms<input type="number" name="numberofRooms"></label>
                 </fieldset>
                 <fieldset>
                     <legend>Additional Info</legend>
                     <!--Special Accomidations/Comments-->
+                    <label><textarea rows="10" name="comment" placeholder="Special accomidation/comments"></textarea></label>
                 </fieldset>
+                <input type="submit" name="submit"value="Complete My Reservation" class="sButton">
                 </form>
             </section>
         </main>
