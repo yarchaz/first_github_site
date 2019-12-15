@@ -81,36 +81,40 @@ nav ul li a:hover{
 main {
     margin: 0 auto;
 }
-#sec1 h2{
-    margin-top:1rem;
-    margin-bottom:-1rem;
+#sec1 h2,#sec2 h2{
+    margin-top:1.4rem;
+    margin-bottom: -.8rem;
 }
-#sec1 picture img{
-    float:right;
-    max-width:100%;
-    width:60%;
-    box-shadow:4px 5px 5px black;
-    margin-right: 1rem;
-    margin-top:1.3rem;
+#sec1 ul li,#sec2 ul li{
+    margin:.5rem 0 .5rem 0;
 }
-#sec1 p, #sec2 p{
+#sec1 p{
     font-size:1rem;
     padding:0 .3rem 0 .3rem;
+    color:#d68813;
 }
+#sec1 form{
+    margin-left:2%;
+}
+#sec1 form label textarea{
+    display:block;
+}
+
 #sec3 div{
     margin-bottom:3rem;
     text-align:center;
 }
-
-#sec3 figure img[data-src]{
-    filter:blur(0.2em);
+#sec3 h3{
+    margin-bottom: 0;
 }
-#sec3 figure img{
-    filter:blure(0em);
-    transition:filter 0.4s;
+#sec3 p{
+    margin:0;
+}
+#sec3 picture img{
     box-shadow: 4px 5px 2px black;
+    margin-top:1rem;
 }
-#sec3 figure:hover{
+#sec3 picture a img:hover{
     transform:scale(1.15);
 }
 figure figcaption{
