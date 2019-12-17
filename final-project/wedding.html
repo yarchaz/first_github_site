@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="discription" contnent="Temple Inn and Suites Home ">
+        <title>Home</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/services/w_small.css">
+        <link rel="stylesheet" href="css/services/w_medium.css">
+        <link rel="stylesheet" href="css/services/w_large.css">
+        <script src="js/navigation.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+            <picture>
+                <img src="images/logo_100.jpg" alt="Temple in and Suites Logo">
+            </picture>
+            <button id="navB" onclick="toggleMenu()">&#9776;</button>
+           </div>
+           <h1>The Temple Inn and Suites</h1>
+           
+        </header>
+        <nav>
+                <ul id="nav" class="hide">
+                    <li ><a href="index.html">Home</a> </li>
+                    <li><a href="temple.html">Temple</a> </li>
+                    <li class="active"><a href="services.html">Service</a> </li>
+                    <li><a href="reservation.html">Reservation</a> </li>
+                    <li><a href="contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+        <main>
+            <div id="mainContent">
+                <section id="sec1">
+                    <h2>Plan your Wedding Resecption</h2>
+                    <img src="images/wedding_reseption_room_small.jpg" alt="wedding resecption hall">
+                    <h3>Reseption Room accomidations</h3>
+                    <div id="center">
+                    <ul>
+                        <li>Reserve up to 6 months in advance</li>
+                        <li>Local Catering Options and Discount</li>
+                        <li>Staff Aided Set Up and Take Down</li>
+                        <li>Several Decor Options</li>
+                        <li>Speakers and Lights</li>
+                    </ul>
+                    <p>Contact us for more information. </p>
+                    <form method="get" action="confermation3.html" >
+                    <label>Full Name<input type="text" pattern ="(\w\w+)\s(\w+)$" placeholder="First and Last name" required>
+                    <label>Email<input type="email" placeholder="someone@gmail.com" required></label>
+                    <label><textarea rows="10" name="comment" placeholder="questions/comments"required></textarea></label>
+                    <input type="submit" name="submit" value="Post My Comment">
+                    </form>
+                    </div>
+                </section>
+        </main>
+        <footer>
+            <p>&copy; 2019 | The Temple Inn and Suites</p>
+            <div>
+                <a href="index.html" >Home</a> |
+                <a href="Temple.html">Temple</a> |
+                <a href="services.html" class="act">Service</a> |
+                <a href="reservation.html">Reservation</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+        </footer>
+        <script src="js/lazy.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webfont.js"></script>
+    </body>
+</html>

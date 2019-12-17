@@ -29,24 +29,28 @@
         width:70%;
         text-align:center;  
     }
-    .center{
-        max-width:70%;
-        margin-left:20%;
-    }
+    
     #sec1 p {
         text-align:left;
         margin: 1rem 3% .5rem 3%;
         font-size:1.5rem;
     }
-    #sec3 {
-        display:grid;
-        grid-template-columns: auto auto;
+    #sec1 img{
+        width: 100%;
+        margin: 0 auto;
     }
-    
-    #sec3 figure img{
-        max-width:100%;
-        width:100%;
-        max-height:10rem;
+    #sec1 ul, #sec1 form, #sec1 p{
+        width:50%;
+        margin:0 Auto;
+    }
+    #sec1 form{
+        justify-self:center;
+        width:50%;
+        margin:0 auto;
+    }
+    #center{
+        width:70%;
+        margin-left:20%;
     }
     footer{
         font-size:1.8rem;
