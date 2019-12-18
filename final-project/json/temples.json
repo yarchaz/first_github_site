@@ -1,19 +1,19 @@
 {
     "temples" : [
     {
-      "name": "Albuquerque New Mexico Temple",
-      "photo": "abq_temple.gif",
-      "address": "10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States",
-      "phone": "(1) 505-822-5110",
-      "email": "abqt@gmail.com",
+      "name": "Salt Lake Temple",
+      "photo": "sl_temple.gif",
+      "address": "50 W North Temple St Salt Lake City UT 841509709 United States",
+      "phone": "(1) 801-240-2640",
+      "email": "slt@gmail.com",
       "services": [
         "Clothing rental available",
-        "No cafeteria available",
+        "Cafeteria available",
         "No parton Housing available",
         "Distribution center nearby"
       ],
-      "dedicated": "5 March 2000",
-      "eSchedule": "Endowment Sessions are every hour starting at 8:00 AM. Last Lession starts at 7:00 PM" ,
+      "dedicated": "6 April 1893",
+      "eSchedule": "Endowment Sessions are every hour starting at 6:00 AM. Last Lession starts at 7:00 PM" ,
       "tClosures" : [
         "Tuesday, 24 December 2019 - Tursday, 26 December 2019",
         "Tuesday, 31 December 2019 (Limited Hours)"
