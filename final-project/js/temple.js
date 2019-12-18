@@ -50,5 +50,29 @@ fetch(requestURL)
           card.appendChild(h3img);
           card.appendChild(tmain);
           document.querySelector('div.templeCard').appendChild(card);
+          const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip="+temples[i].zip +"&units=imperial&APPID=b2012ab1c1fd703c93375ed8b42602ef";
+          fetch(apiURL)
+              .then((response) => response.json())
+              .then((jsObject) => {
+                  console.log(jsObject);
+                  var temp = Math.round(jsObject.main.temp);
+                  var windS = jsObject.wind.speed;
+                  var windC = windChill(temp,windS);
+                  let weather = document.createElement("section");
+                  let temperature = document.createElement('p');
+                  let windspead = document.createElement('p');
+                  let chillwind = document.createElement("p");
+                  temperature.textContent=temp;
+                  windspead.textContent=windS;
+                  chillwind.textContent=windC;
+                  weather.appendChild(temperature);
+                  weather.appendChild(windspead);
+                  weather.appendChild(chillwind);
+                  card.appendChild(weather);
+                  document.querySelector('div.templeCard').appendChild(card);
+
+              });
         }
+       
     });
+    
