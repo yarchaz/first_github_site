@@ -94,15 +94,20 @@ main section h2{
 .templeCard section div img{
     margin-left:-1%;
     width:100%;
+    box-shadow:5px 5px 10px black;
 }
 .templeCard section div h4{
-    margin: 0 0 .8rem 0;
+    margin: .5rem 0 .8rem 0;
 }
 .templeCard section div h5{
     margin-bottom:0;
+    margin-top:1.5rem;
 }
 .templeCard section div p{
     margin: .5rem 0 -.05rem 0;
+}
+.weather{
+    margin-bottom:1rem;
 }
 /*--- Footer Section ---*/
 footer{
