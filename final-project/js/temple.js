@@ -79,7 +79,7 @@ fetch(requestURL)
                   let temperature = document.createElement('p');
                   let windspead = document.createElement('p');
                   let chillwind = document.createElement("p");
-                  wdesc.textContent=desc;
+                  wdesc.textContent="Condition: " + desc;
                   temperature.textContent="Temperature:" + " " + temp ;
                   windspead.textContent="Wind Speed:" + " " + windS;
                   chillwind.textContent="Wind Chill: " + windC;
