@@ -83,7 +83,7 @@ main {
 }
 #sec1 h2,#sec2 h2{
     margin-top:1.4rem;
-    margin-bottom: -.8rem;
+    margin-bottom: -.3rem;
 }
 #sec1 ul li,#sec2 ul li{
     margin:.5rem 0 .5rem 0;
@@ -98,14 +98,24 @@ main {
 }
 #sec1 form label textarea{
     display:block;
+    margin-bottom: 1rem;
 }
-
+.sButton{
+    border:none;
+    font-size:1.5rem;
+    background-color:#666666;
+    color:#d68813;
+    border-radius:10px;
+}
+.sButton:hover{
+    color:#ff1919;
+}
 #sec3 div{
     margin-bottom:3rem;
     text-align:center;
 }
 #sec3 h3{
-    margin-bottom: 0;
+    margin-bottom: .5rem;
 }
 #sec3 p{
     margin:0;

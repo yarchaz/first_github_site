@@ -18,18 +18,9 @@
     main{
         position:relative;
     }
-    #mainContent{
-        display:grid;
-        grid-template-columns:2fr 1fr;
-    }
-    #sec2{
-        margin-right:2%;
-        border:2px solid black;
-        height:60%;
-    }
-    #sec3 {
-        display:grid;
-        grid-template-columns: auto auto auto;
+    .templeCard{
+        font-size:1.3vw;
+        
     }
     footer{
         font-size:1rem;

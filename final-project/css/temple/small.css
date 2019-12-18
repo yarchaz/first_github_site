@@ -108,6 +108,7 @@ main section h2{
 }
 .weather{
     margin-bottom:1rem;
+    font-weight:bold;
 }
 /*--- Footer Section ---*/
 footer{

@@ -106,7 +106,16 @@ main {
     display:block;
     margin-bottom:.5rem;
 }
-
+.sButton{
+    border:none;
+    font-size:1.5rem;
+    background-color:#666666;
+    color:#d68813;
+    border-radius:10px;
+}
+.sButton:hover{
+    color:#ff1919;
+}
 /*--- Footer Section ---*/
 footer{
     background: linear-gradient(0deg, rgba(102,102,102,1) 55%, rgba(255,255,255,1) 100%);
