@@ -120,11 +120,11 @@ main {
 #sec3 p{
     margin:0;
 }
-#sec3 picture img{
+#sec3  img{
     box-shadow: 4px 5px 2px black;
     margin-top:1rem;
 }
-#sec3 picture a img:hover{
+#sec3 a img:hover{
     transform:scale(1.15);
 }
 figure figcaption{
