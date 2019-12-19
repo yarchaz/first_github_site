@@ -12,6 +12,10 @@
     .hide{
         top:-5rem;
     }
+    form fieldset label input{
+        height:default;
+        width:default;
+    }
     .sButton{
         font-size:1rem;
     }
