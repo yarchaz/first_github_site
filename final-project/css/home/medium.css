@@ -42,7 +42,7 @@
         margin: 1rem 3% 0 3%;
         font-size:1.5rem;
     }
-    #sec3 {
+    .gallery {
         display:grid;
         grid-template-columns: auto auto;
     }

@@ -27,8 +27,7 @@
         border:2px solid black;
         height:60%;
     }
-    #sec3 {
-        display:grid;
+    .gallery {
         grid-template-columns: auto auto auto;
     }
     footer{
