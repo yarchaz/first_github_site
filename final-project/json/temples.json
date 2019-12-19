@@ -3,7 +3,7 @@
     {
       "name": "Salt Lake Temple",
       "zip":"84150",
-      "photo": "sl_temple.jpg",
+      "photo": "sl_temple_temple.jpg",
       "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
       "phone": "(1) 801-240-2640",
       "email": "slt@gmail.com",
@@ -23,7 +23,7 @@
     {
       "name": "Los Angeles California Temple",
       "zip":"90025",
-      "photo": "la_temple.jpg",
+      "photo": "la_temple_temple.jpg",
       "address": "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
       "phone": "(1) 310-474-5569",
       "email": "lat@gmail.com",
@@ -43,7 +43,7 @@
     {
       "name": "San Diego Califonia Temple",
       "zip":"92122",
-      "photo": "sd_temple.jpg",
+      "photo": "sd_temple_temple.jpg",
       "address": "7474 Charmant Dr San Diego CA 92122-5000 United States",
       "phone": "(1) 858-622-0991",
       "email": "sdt@gmail.com",
@@ -63,7 +63,7 @@
     {
       "name": "Manti Utah Temple",
       "zip":"84642",
-      "photo": "mt_temple.jpg",
+      "photo": "mt_temple_temple.jpg",
       "address": "200 E 510 N Manti UT 84642-1701 United States",
       "phone": "(1) 435-835-2291",
       "email": "mtt@gmail.com",
